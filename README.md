@@ -1,16 +1,33 @@
-# payment_dashboard_frontend
+# Payment Dashboard Frontend
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter frontend connects to the Payment Dashboard backend and provides:
 
-This project is a starting point for a Flutter application.
+- Secure login with JWT authentication
+- Dashboard to view, filter, and paginate payments
+- User management screen for admins (add/manage users)
+- Payment simulation form to add new transactions
+- Reports and charts using `fl_chart` for data visualization
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter (Mobile & Web)
+- JWT Authentication
+- REST API calls to NestJS backend
+- `flutter_secure_storage` for token storage
+- `fl_chart` for charts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Prerequisites
+
+- Flutter SDK (>= 3.x)
+- Android Studio, Xcode, or VS Code with Flutter plugins
+- Running backend API URL
+
+## Setup Instructions
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/AnushaEagala/payment-dashboard-frontend.git
+   cd payment-dashboard-frontend
